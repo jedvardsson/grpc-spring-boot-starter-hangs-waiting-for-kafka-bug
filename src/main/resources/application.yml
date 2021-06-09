@@ -1,0 +1,15 @@
+spring.application.name: 'example'
+
+spring:
+  cloud:
+    bus.enabled: false
+    config:
+      enabled: false
+    stream:
+      default-binder: kafka
+
+grpc:
+  port: 6565
+  enableReflection: true
+
+
